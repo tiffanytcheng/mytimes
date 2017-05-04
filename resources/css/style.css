@@ -1,0 +1,49 @@
+html, body {
+
+}
+
+img {
+  height: auto;
+  width: auto;
+}
+/* Header Section */
+
+.header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: inline-flex;
+  border-bottom: 1px solid black;
+  width: 100%;
+  height: auto;
+  padding: 10px 10px;
+}
+
+.header li {
+  list-style: none;
+  display: inline-flex;
+  padding: 0 10px;
+}
+
+.header li a {
+  color: #000;
+}
+
+.container {
+  display: inline-flex;
+  width: 100%;
+}
+
+.logo {
+  display: inline-flex;
+  color: MediumAquamarine;
+  font-family: Verdana;
+  font-weight: bold;
+  position: absolute;
+  margin: 24px 15px;
+  padding-left: 80px;
+}
+
+#nav {
+  justify-content: flex-end;
+}
