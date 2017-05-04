@@ -1,0 +1,147 @@
+html, body {
+
+}
+
+img {
+  height: auto;
+  width: auto;
+}
+
+div {
+  border: 1px solid black;
+}
+
+/* Header Section */
+
+.header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: inline-flex;
+  border-bottom: 1px solid black;
+  width: 100%;
+  height: auto;
+  padding: 10px 10px;
+}
+
+.header li {
+  list-style: none;
+  display: inline-flex;
+  padding: 0 10px;
+}
+
+.header li a {
+  color: #000;
+}
+
+.container {
+  display: inline-flex;
+  width: 100%;
+  height: auto;
+}
+
+.container .logo {
+  display: inline-flex;
+  color: MediumAquamarine;
+  font-family: Verdana;
+  font-weight: bold;
+  position: absolute;
+  margin: 24px 15px;
+  padding-left: 80px;
+}
+
+.box {
+  display: flex;
+  width: 80%;
+  align-items: flex-start;
+}
+
+#nav {
+  justify-content: flex-end;
+}
+
+/* Main Content Section */
+
+.main {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+
+.column.large {
+  width: 630px;
+  flex-direction: row;
+}
+
+.column.medium {
+  width: 300px;
+  flex-direction: column;
+}
+
+.column.small {
+  width:240px;
+  flex-direction: column;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.stories {
+  display: flex;
+    flex-direction: column;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.lead-story .image-content {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+  width: 630px;
+  height: 300px;
+  font-size: 40px;
+  font-family: Georgia;
+  font-weight: bold;
+  color: #fff;
+}
+
+.story .cats {
+  display: flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
+  width: 299px;
+  height: 300px;
+}
+
+.story .earth {
+  display: flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+  width: 299px;
+  height: 300px;
+}
+
+.story .research {
+  display: flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
+  width: 299px;
+  height: 300px;
+}
+
+div h2 {
+  display: flex;
+}
+
+.copy {
+  font-family: Georgia;
+  font-size: 17px;
+  color: #000;
+}
+.story span {
+  font-family: Georgia;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
